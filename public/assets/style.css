@@ -7,86 +7,90 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2f2f2f;
-    color: #e5e5e5;
+    background-color: #121212;
+    color: #EAEAEA;
     line-height: 1.6;
+    padding: 0;
+    margin: 0;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #1a1a1a;
-    color: #f4f4f4;
-    padding: 2rem;
+    background-color: #333;
+    color: #FFF;
     text-align: center;
+    padding: 2rem 0;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 0.5rem;
 }
 
 header p {
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
-/* Container principal */
 .container {
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Conteúdo principal */
-main {
-    padding: 3rem 1rem;
+/* Seção Hero */
+.hero {
+    background: linear-gradient(45deg, #3a3a3a, #1a1a1a);
+    color: #FFF;
+    padding: 4rem 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2rem;
 }
 
-.content-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-section {
-    width: 48%;
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h2 {
+/* Seção de Jogo */
+.game-section {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.game-container {
+    background-color: #1c1c1c;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.game-container h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-p {
-    font-size: 1.1rem;
-}
-
-/* Imagem */
-.image img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* Jogo do Dinossauro */
-.dino-game {
-    background-color: #333;
-    border-radius: 10px;
-    padding: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
 #game-container {
-    background-color: #222;
+    background-color: #333;
+    padding: 20px;
     border-radius: 10px;
-    padding: 1rem;
-    margin-top: 1rem;
-    height: 250px;
+    height: 300px;
+    width: 100%;
 }
 
 /* Rodapé */
 footer {
-    background-color: #1a1a1a;
-    color: #e5e5e5;
+    background-color: #333;
+    color: #EAEAEA;
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
